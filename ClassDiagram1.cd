@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Chess.KingSideCastleMove" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAIABAAAAEAgIAAAAAAIAAAAAQAAEIgAQAAA=</HashCode>
+      <FileName>moves\KingSideCastleMove.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Chess.NormalMove" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="8.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAIABCAAAECgAAAAAAAIAAAAAQAAAAgAQAAA=</HashCode>
+      <FileName>moves\NormalMove.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Chess.PromotionMove" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="3.75" Width="6" />
+    <TypeIdentifier>
+      <HashCode>ACAAAQAAAIABAAAAEAgIAAAAAAIAAAAAQAAAAgAQAAA=</HashCode>
+      <FileName>moves\PromotionMove.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Chess.QueenSideCastleMove" BaseTypeListCollapsed="true">
+    <Position X="6" Y="8.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgAAAAAIABAAAAEAgIAAAABAIAAAAAQAAAIgAQAAA=</HashCode>
+      <FileName>moves\QueenSideCastleMove.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Chess.Piece">
+    <Position X="21.75" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAIIBAAiAABAQAEAEAAAJACAAAAAEAAEAAAAA=</HashCode>
+      <FileName>Piece.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Bishop">
+    <Position X="17" Y="7" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pieces\Bishop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.King">
+    <Position X="18.75" Y="5.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pieces\King.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Knight">
+    <Position X="23.75" Y="5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pieces\Knight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Pawn">
+    <Position X="25" Y="9.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>pieces\Pawn.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Chess.Queen">
+    <Position X="18.75" Y="9.25" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pieces\Queen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Rook">
+    <Position X="23.5" Y="6.75" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pieces\Rook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.EnPassant">
+    <Position X="2.5" Y="12.25" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAACAAIADCCAAECgAAAAAACIAAQgAQAAAACAQAAA=</HashCode>
+      <FileName>moves\EnPassant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Chess.DoublePushMove">
+    <Position X="1.25" Y="8" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAIABAAAAEAgIAAAAAAIAAAAAQAAAACAQAAA=</HashCode>
+      <FileName>moves\DoublePushMove.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Chess.Board">
+    <Position X="16.5" Y="17.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>QEAiAAgEAIAAAgBAIIAAAAAABACgAFAAABAAAIFQAAA=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Cell">
+    <Position X="22" Y="20.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAIIKQBEgDAAAQABAACAAKQQAAAQAAAAAIA4AA=</HashCode>
+      <FileName>Cell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.ExtensionMethods">
+    <Position X="18.75" Y="29.75" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAoACAAABEAAAAAACAAAAIAAAAAEIgEAAA=</HashCode>
+      <FileName>ExtensionMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Game">
+    <Position X="13" Y="25.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAACgACAgRAEAAAAAAABAAgAAAABAAAAAAAEAI=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.Grid">
+    <Position X="10" Y="28" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAAEAAgAAAAAAgBAIIIAAAAABAAAAAAAAAAAAIBAABA=</HashCode>
+      <FileName>Grid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.MySprite">
+    <Position X="13.25" Y="31.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEAAAAAgAAAAAAgAAABAAAAACAAAAAAQAAAAEAA=</HashCode>
+      <FileName>MySprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.PieceFactory">
+    <Position X="18.25" Y="27.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>PieceFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Chess.Coordinate">
+    <Position X="9" Y="21.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAQAAAAAAAhAAAAAAAAAAAAAAAAAAAAAYiA=</HashCode>
+      <FileName>Coordinate.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Chess.IMove">
+    <Position X="8" Y="0.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAIIABAAAAAAgAAAAAAAAAAAAAQAAAAAAQAAA=</HashCode>
+      <FileName>moves\IMove.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Chess.IPromotable">
+    <Position X="12.75" Y="1.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>moves\IPromotable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Chess.PromotionPiece">
+    <Position X="1.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAEAAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>moves\PromotionMove.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Chess.PieceKind">
+    <Position X="12" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAEggAAAAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Piece.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Chess.GameStatus">
+    <Position X="13.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAgiAAAAAAAAAAAAgAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
